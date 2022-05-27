@@ -22,16 +22,17 @@ header{
     font-size: 20px;
 }
 
-.sub-text{
-    /* padding-left: 30px; */
-}
-
 .header-container{
     
     max-width: 1200px;
     width: 100%;
     display: flex;
     align-items: center;
+}
+
+.header-container span{
+    padding-left: 10px;
+    font-weight: 500;
 }
 
 .search-bar{
@@ -49,7 +50,6 @@ header{
     margin-top: 40px;
     display: flex;
     align-items: center;
-    /* padding: 20px; */
 
 }
 
@@ -129,6 +129,7 @@ header{
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+ 
 
 }
 
@@ -148,6 +149,16 @@ header{
     margin-right: 4px;
 }
 
+.apply-now:hover{
+    background-color: #6468bc;
+   cursor: pointer;
+}
+
+.contact-us:hover{
+    background-color: #ababba;
+   cursor: pointer;
+}
+
 .contact-us{
     background-color: #9595a0;
     height: 48px;
@@ -165,4 +176,6 @@ header{
     flex-wrap: wrap;
     flex-grow: 1;
     grid-template-columns: repeat(1fr);
+    display: flex;
+    justify-content: center;
 }
